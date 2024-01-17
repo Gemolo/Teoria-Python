@@ -7,7 +7,7 @@ Ciao ragazzi! Questo è il nostro tutorial di Python, un posto dove imparare le 
 
 1. Assicuratevi di avere Python installato sul vostro computer. Se non l'avete ancora, potete scaricarlo [qui](https://www.python.org/downloads/).
 
-2. Installate Visual Studio Code [qui](https://code.visualstudio.com/download)
+2. Installate Visual Studio Code [qui](https://code.visualstudio.com/download).
 
 3. Installate l'estensione di Python su VS Code
 
