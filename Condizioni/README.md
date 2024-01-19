@@ -22,11 +22,6 @@ if numero > 5:
     print("Il numero è maggiore di 5.")
 ```python
 
-
-Ecco il codice sorgente Markdown completo per la pagina:
-
-markdown
-Copy code
 # README: 🎯 Condizioni e Operatori in Python - Introduzione e Utilizzo
 
 ## 🚦 Condizioni e Operatori in Python
