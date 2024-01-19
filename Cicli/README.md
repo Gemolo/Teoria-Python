@@ -19,15 +19,15 @@ for frutto in frutta:
 
 Questo stampa ogni elemento della lista frutta uno alla volta.
 
-##2. Ciclo while
+## 2. Ciclo while
 Il ciclo while viene utilizzato quando si desidera eseguire un blocco di codice fintanto che una condizione è vera.
 
-###Sintassi:
+### Sintassi:
 
 while condizione:
     # Blocco di codice da eseguire fintanto che la condizione è vera
 
-###Esempio:
+### Esempio:
 
 contatore = 0
 while contatore < 5:
