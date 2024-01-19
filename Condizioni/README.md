@@ -16,11 +16,12 @@ Gli operatori di confronto sono utilizzati per confrontare due valori. Ecco alcu
 - `>=` : Maggiore o uguale a
 
 **Esempio:**
+
 ```python
 numero = 10
 if numero > 5:
     print("Il numero è maggiore di 5.")
-```python
+```
 
 # README: 🎯 Condizioni e Operatori in Python - Introduzione e Utilizzo
 
@@ -46,7 +47,7 @@ Gli operatori di confronto sono utilizzati per confrontare due valori. Ecco alcu
 numero = 10
 if numero > 5:
     print("Il numero è maggiore di 5.")
-```python
+```
 
 Questo stampa il messaggio solo se il numero è maggiore di 5.
 
@@ -62,7 +63,7 @@ elif condizione2:
     # Blocco di codice se condizione2 è vera
 else:
     # Blocco di codice se nessuna delle condizioni è vera
-```python
+```
 
 Esempio:
 
@@ -75,7 +76,7 @@ elif voto >= 70:
     print("Buon voto.")
 else:
     print("Da migliorare.")
-```python
+```
 
 Questo esempio valuta il voto e stampa un messaggio in base a diverse condizioni.
 
@@ -89,7 +90,7 @@ eta = 25
 
 if eta >= 18 and eta <= 30:
     print("Sei un giovane adulto.")
-```python
+```
 
 Questo verifica se l'età è compresa tra 18 e 30 anni.
 
