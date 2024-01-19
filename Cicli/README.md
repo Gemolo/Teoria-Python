@@ -7,15 +7,17 @@ I cicli, o loop, sono una parte essenziale della programmazione che consente di 
 Il ciclo for in Python è utilizzato per iterare su una sequenza (come una lista, una tupla, una stringa, ecc.) o su un oggetto iterabile.
 
 ### Sintassi:
-
+```python
 for elemento in sequenza:
     # Blocco di codice da eseguire per ogni elemento
-
+```
 ### Esempio:
 
+```python
 frutta = ["mela", "banana", "pera"]
 for frutto in frutta:
     print(frutto)
+```
 
 Questo stampa ogni elemento della lista frutta uno alla volta.
 
@@ -23,17 +25,17 @@ Questo stampa ogni elemento della lista frutta uno alla volta.
 Il ciclo while viene utilizzato quando si desidera eseguire un blocco di codice fintanto che una condizione è vera.
 
 ### Sintassi:
-
+```python
 while condizione:
     # Blocco di codice da eseguire fintanto che la condizione è vera
-
+```
 ### Esempio:
-
+```python
 contatore = 0
 while contatore < 5:
     print(contatore)
     contatore += 1
-
+```
 Questo stampa i numeri da 0 a 4 poiché il blocco di codice viene eseguito fintanto che contatore è inferiore a 5.
 
 ## 3. Differenze tra for e while
