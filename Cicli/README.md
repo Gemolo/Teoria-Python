@@ -1,4 +1,6 @@
-Cicli in Python
+README: 🐍 Cicli in Python - Introduzione e Differenze
+
+🔄 Cicli in Python
 I cicli, o loop, sono una parte essenziale della programmazione che consente di eseguire un blocco di codice ripetutamente. In Python, ci sono principalmente due tipi di cicli: for e while. Vediamo come funzionano e le loro differenze.
 
 1. Ciclo for
@@ -6,17 +8,15 @@ Il ciclo for in Python è utilizzato per iterare su una sequenza (come una lista
 
 Sintassi:
 
-python
-Copy code
 for elemento in sequenza:
     # Blocco di codice da eseguire per ogni elemento
+
 Esempio:
 
-python
-Copy code
 frutta = ["mela", "banana", "pera"]
 for frutto in frutta:
     print(frutto)
+
 Questo stampa ogni elemento della lista frutta uno alla volta.
 
 2. Ciclo while
@@ -26,12 +26,14 @@ Sintassi:
 
 while condizione:
     # Blocco di codice da eseguire fintanto che la condizione è vera
+
 Esempio:
 
 contatore = 0
 while contatore < 5:
     print(contatore)
     contatore += 1
+
 Questo stampa i numeri da 0 a 4 poiché il blocco di codice viene eseguito fintanto che contatore è inferiore a 5.
 
 3. Differenze tra for e while
