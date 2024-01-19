@@ -45,11 +45,16 @@ Gli operatori di confronto sono utilizzati per confrontare due valori. Ecco alcu
 - `>=` : Maggiore o uguale a
 
 **Esempio:**
+
+<details>
+<summary><strong>Codice Python - Operatori di Confronto</strong></summary>
 ```python
+
 numero = 10
 if numero > 5:
     print("Il numero è maggiore di 5.")
-```python
+</details>
+```
 
 Questo stampa il messaggio solo se il numero è maggiore di 5.
 
@@ -65,7 +70,7 @@ elif condizione2:
     # Blocco di codice se condizione2 è vera
 else:
     # Blocco di codice se nessuna delle condizioni è vera
-```python
+```
 
 Esempio:
 
