@@ -2,13 +2,18 @@ def stampa(vettore):
     for i in range(len(vettore)):
         print(f"{vettore[i]}, ", end=" ")
     print(f"")
+
 def somma(vettore):
     som = 0
     for i in range(len(vettore)):
         som += vettore[i]
     return som
 
-
+def contains(elem, vettore):
+    for i in range(len(vettore)):
+        if vettore[i] == elem:
+            return True
+    return False
 
 
 # Testing
