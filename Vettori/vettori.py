@@ -20,6 +20,12 @@ def raddoppiaNumero(vettore):
         vettore[i] *= 2
     return vettore
 
+def reverseVettore(vettore):
+    rev = []
+    for i in range(len(vettore) - 1, 0, -1):
+        rev.append(vettore[i])
+    return rev
+
 
 # Testing
 def init():
