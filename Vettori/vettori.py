@@ -45,6 +45,14 @@ def indexOf(elem, vettore):
             return i
     return -1
 
+# Massimo di soli elementi positivi di un vettore non vuoto
+def maxVet(vettore):
+    max = vettore[0]
+    for i in range(len(vettore)):
+        if vettore[i] > max:
+            max = vettore[i]
+    return max
+
 # Testing
 def init():
     vettore = [1,2,3,4,5,6,7,8,9,10]
