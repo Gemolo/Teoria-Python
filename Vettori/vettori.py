@@ -26,6 +26,18 @@ def reverseVettore(vettore):
         rev.append(vettore[i])
     return rev
 
+def contaPari(vettore):
+    count = 0
+    for i in range(len(vettore)):
+        if vettore[i] % 2 == 0:
+            count += 1
+    return count
+
+def media(vettore):
+    somma = 0
+    for i in range(len(vettore)):
+        somma += vettore[i]
+    return somma/len(vettore)
 
 # Testing
 def init():
