@@ -93,7 +93,14 @@ def isContains(elem, matr):
                 return True
     return False
 
-
+# Conta numeri pari in una matrice
+def contaPari(matr):
+    count = 0
+    for i in range(len(matr)):
+        for j in range(len(matr[i])):
+            if matr[i][j] % 2 == 0:
+                count += 1
+    return count
 
 
 
