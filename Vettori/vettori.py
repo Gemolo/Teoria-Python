@@ -39,6 +39,12 @@ def media(vettore):
         somma += vettore[i]
     return somma/len(vettore)
 
+def indexOf(elem, vettore):
+    for i in range(len(vettore)):
+        if vettore[i] ==  elem:
+            return i
+    return -1
+
 # Testing
 def init():
     vettore = [1,2,3,4,5,6,7,8,9,10]
