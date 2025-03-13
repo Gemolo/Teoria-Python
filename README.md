@@ -28,6 +28,6 @@ Ogni lezione è accompagnata da esempi pratici e sfide per mettere alla prova le
 
 ## 🤝 Domande e Supporto
 
-Se avete domande o avete bisogno di aiuto, non esitate a chiedere! Potete inviare un'email a [gemolo.kevin@benedettitommaseo.org] oppure [gemolo.kevin@liceomorin.net] o chiedere durante le lezioni.
+Se avete domande o avete bisogno di aiuto, non esitate a chiedere! Potete inviare un'email a [gemolo.kevin@benedettitommaseo.org] oppure [kevin.gemolo@liceostefanini.edu.it] o chiedere durante le lezioni.
 
 Divertitevi ad imparare Python! 🎉
