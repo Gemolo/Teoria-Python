@@ -45,3 +45,41 @@ def sommaTriangoloInferioreMatrice(matr):
                 sommaIS += matr[i][j]
     return sommaIS
 
+# m = [
+#       [1,2,3],
+#       [4,5,6]
+#       [7,8,9]
+
+# Output -> [2,3,6]
+
+# Somma elementi della diagonaleDxSx
+def sommaElementiDiagonaleDxSx(matr):
+    somma = 0
+    for i in range(len(matr)):
+        for j in range(len(matr[i])):
+            if i + j == len(matr) - 1:
+                somma += matr[i][j]
+    return matr
+
+# Una matrice è bilanciata se la somma del traingolare sup meno la somma del triangolare superiore
+# è pari a zero
+def isBilanciata(matr):
+    sommaSup = 0
+    sommaInf = 0
+    for i in range(len(matr)):
+        for j in range(len(matr[i])):
+            if i < j:
+                sommaSup += matr[i][j]
+            if i > j:
+                sommaInf += matr[i][j]
+    return sommaSup - sommaInf == 0
+
+
+
+
+
+
+
+
+
+
