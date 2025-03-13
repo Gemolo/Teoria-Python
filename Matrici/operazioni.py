@@ -2,8 +2,10 @@
 def sommaMatrici(matr1, matr2):
     matr3 = []
     for i in range(len(matr1)):
+        riga = []
         for j in range(len(matr1[i])):
-            matr3.append(matr1[i][j] + matr2[i][j])
+            riga.append(matr1[i][j] + matr2[i][j])
+        matr3.append(riga)
     return matr3
 
 # Prodotto tra due matrici di pari dimensioni e quadrate
