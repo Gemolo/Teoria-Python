@@ -85,7 +85,13 @@ def differenzaDiagonali(matr):
                 diff -= matr[i][j]
     return diff
 
-
+# Controllare se un elemento elem è contenuto nella matrice matr
+def isContains(elem, matr):
+    for i in range(len(matr)):
+        for j in range(len(matr[i])):
+            if matr[i][j] == elem:
+                return True
+    return False
 
 
 
