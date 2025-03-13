@@ -15,6 +15,11 @@ def contains(elem, vettore):
             return True
     return False
 
+def raddoppiaNumero(vettore):
+    for i in range(len(vettore)):
+        vettore[i] *= 2
+    return vettore
+
 
 # Testing
 def init():
