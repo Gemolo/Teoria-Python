@@ -74,7 +74,16 @@ def isBilanciata(matr):
                 sommaInf += matr[i][j]
     return sommaSup - sommaInf == 0
 
-
+# Diagonale da SxDx meno DxSx
+def differenzaDiagonali(matr):
+    diff = 0
+    for i in range(len(matr)):
+        for j in range(len(matr[i])):
+            if i == j:
+                diff += matr[i][j]
+            if i + j == len(matr) - 1:
+                diff -= matr[i][j]
+    return diff
 
 
 
