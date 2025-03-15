@@ -30,20 +30,23 @@ def sommaMatrice(matr):
     return somma
 
 # Somma per Riga
-def somma_matrice(matrice):
-    somma = 0
-    for riga in matrice:
-        for elemento in riga:
-            somma += elemento
-    return somma
+def sommaRigheMatrice(matr):
+    somme = []
+    for i in range(len(matr)):
+        somma = 0
+        for j in range(len(matr[i])):
+            somma += matr[i][j]
+        somme.append(somma)
+    return somme
 
 # Somma per Colonna
-def somma_colonne(matrice):
-    colonne = len(matrice[0])
-    somme = [0] * colonne
-    for riga in matrice:
-        for j in range(colonne):
-            somme[j] += riga[j]
+def sommaColonneMatrice(matr):
+    somme = []
+    for j in range(len(matr)):
+        somma = 0
+        for i in range(len(matr[j])):
+            somma += matr[i][j]
+        somme.append(somma)
     return somme
 
 # Somma elementi della diagonaleDxSx
@@ -186,4 +189,3 @@ def trasponi_matrice(matrice):
             trasposta_riga.append(matrice[i][j])
         trasposta.append(trasposta_riga)
     return trasposta
-
