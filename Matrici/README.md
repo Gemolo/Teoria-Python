@@ -46,8 +46,3 @@ print(sommaMatrice(matrice))  # Output: 45
 print(somma_colonne(matrice))  # Output: [12, 15, 18]
 ```
 
-## 🤝 Contributi
-Se vuoi contribuire, fai un fork del repository, crea un nuovo branch, apporta le modifiche e invia una pull request! 🚀
-
-## ⚖️ Licenza
-Questo progetto è distribuito sotto la licenza MIT.
