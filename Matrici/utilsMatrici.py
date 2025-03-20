@@ -19,6 +19,20 @@ def lenMatriceMigliore(matr):
 
 
 
+########## STAMPE #############
+
+# Stampa matrice
+def stampaMatrice(matr):
+    for i in range(len(matr)):
+        print("")
+        for j in range(len(matr[i])):
+            print(f"\t{matr[i][j]}", end = " ")
+        print("")
+
+
+
+
+
 ########## SOMME ##############
 
 # Somma matrice
