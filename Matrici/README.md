@@ -32,6 +32,8 @@ Questo repository contiene una raccolta di funzioni per la manipolazione di matr
     - `isContains(elem, matr)`: 🔍 Verifica se un elemento è contenuto nella matrice.
     - `contaPari(matr)`: 🔢 Conta il numero di elementi pari.
 - **Trasposizione**: `trasponi_matrice(matrice)` 🔄
+- **isDiagonale**: `isDiagonale(matrice)` 🔄: Una matrice è diagonale se tutti gli elementi fuori dalla diagonale principale sono zero.
+- **ruota_90**: `ruota_90(matrice)` 🔄: Rotazione della matrice di 90 gradi in senso orario.
 
 ## 📝 Esempio di Utilizzo
 

@@ -163,6 +163,19 @@ def isContains(elem, matr):
                 return True
     return False
 
+# Una matrice è diagonale se tutti gli elementi fuori dalla diagonale principale sono zero.
+def isDiagonale(matr):
+    isDiag = True
+    for i in range(len(matr)):
+        for j in range(len(matr[i])):
+            if i != j:
+                if matr[i][j] != 0:
+                    isDiag = False
+    return isDiag
+
+
+
+
 
 
 ########## FUNZIONI CONTA ##############
@@ -189,3 +202,11 @@ def trasponi_matrice(matrice):
             trasposta_riga.append(matrice[i][j])
         trasposta.append(trasposta_riga)
     return trasposta
+
+# Rotazione della matrice di 90 gradi in senso orario
+def ruota_90(A):
+    ruotata = [[0] * 3 for _ in range(3)]
+    for i in range(3):
+        for j in range(3):
+            ruotata[j][2-i] = A[i][j]  # Ruota di 90° in senso orario
+    return ruotata
