@@ -115,5 +115,3 @@ Ogni metodo di posizionamento ha il suo utilizzo ideale:
 - **`grid()`** → Ideale per layout tabellari.
 - **`pack()`** → Perfetto per distribuzione verticale/orizzontale automatica.
 - **`place()`** → Utile quando si vuole controllo preciso del posizionamento.
-
-💡 **Quale metodo è il più adatto per il tuo progetto? 🚀**
